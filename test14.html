@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #aa ~ p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- css selcetor แบบที่ 10 : genaral sibling selector  -->
+     <!-- s1 s2 คั่นด้วย ~ คือ s2 ทั้งหมด ที่อยู่ถัดจาก s1 -->
+     <div id="aa">
+        <p>11111111</p>
+        <p>22222222</p>
+        <div id="bb">
+            <p>3333333</p>
+            <div id="cc">
+                <p>4444444</p>
+            </div>
+            <p>5555555</p>
+        </div>
+        <p>6666666</p>
+     </div>
+     <p>7777777</p>
+     <p>8888888</p>
+</body>
+</html>
